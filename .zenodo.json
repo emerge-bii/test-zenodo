@@ -1,6 +1,4 @@
 {
-  "upload_type": "dataset",
-  "publication_date": "2022-08-26",
   "title": "Test Zenodo upload",
   "description": "Testing Zenodo uploads/updates with metadata JSON",
   "creators": [
@@ -16,8 +14,5 @@
   ],
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
-  "notes": "dataset notes can go here",
-  "communities": [{"identifier": "emerge-bii"}],
-  "grants": [{"id": "10.13039/100000001::2022070"}],
-  "version": "0.0.0"
+  "notes": "dataset notes can go here"
 }
