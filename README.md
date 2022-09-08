@@ -9,4 +9,5 @@ The following properties were attempted to be added, but resulted in a failure t
 
 ```
 "grants": [{"id": "10.13039/100000001::2022070"}] (note: not sure if this is actually a valid DOI for the EMERGE grant)
+"communities": [{"identifier": "emerge-bii"}]
 ```

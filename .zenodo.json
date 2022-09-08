@@ -1,5 +1,6 @@
 {
   "title": "Test Zenodo upload",
+  "publication_date": "2022-08-26",
   "description": "Testing Zenodo uploads/updates with metadata JSON",
   "creators": [
     {
@@ -15,6 +16,5 @@
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
   "notes": "dataset notes can go here",
-  "version": "0.0.4",
-  "communities": [{"identifier": "emerge-bii"}]
+  "version": "0.0.5"
 }
