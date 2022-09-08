@@ -1,6 +1,6 @@
 {
-  "title": "This is the 'title' - Test Zenodo upload",
-  "publication_date": "2022-08-26",
+  "title": "This is the 'title': Test Zenodo upload",
+  "upload_type": "dataset",
   "description": "This is the 'description'",
   "creators": [
     {
@@ -16,6 +16,6 @@
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
   "notes": "This is the 'notes'",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "communities": [{"identifier": "emerge-bii"}]
 }
