@@ -14,5 +14,6 @@
   ],
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
-  "notes": "dataset notes can go here"
+  "notes": "dataset notes can go here",
+  "version": "0.0.2"
 }
