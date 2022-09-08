@@ -15,6 +15,6 @@
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
   "notes": "dataset notes can go here",
-  "version": "0.0.3",
-  "grants": [{"id": "10.13039/100000001::2022070"}]
+  "version": "0.0.4",
+  "communities": [{"identifier": "emerge-bii"}]
 }
