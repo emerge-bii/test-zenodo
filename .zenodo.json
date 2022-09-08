@@ -1,7 +1,7 @@
 {
-  "title": "Test Zenodo upload",
+  "title": "This is the 'title' - Test Zenodo upload",
   "publication_date": "2022-08-26",
-  "description": "Testing Zenodo uploads/updates with metadata JSON",
+  "description": "This is the 'description'",
   "creators": [
     {
       "name": "Woodcroft, Ben", "affiliation": "Queensland University of Technology"
@@ -15,7 +15,7 @@
   ],
   "access_right": "open",
   "keywords": ["test", "EMERGE"],
-  "notes": "dataset notes can go here",
+  "notes": "This is the 'notes'",
   "version": "0.0.5",
   "communities": [{"identifier": "emerge-bii"}]
 }
