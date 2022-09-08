@@ -1,15 +1,21 @@
 # test-zenodo
 Testing Zenodo releases.
 
-This GitHub repository is linked to the test Zenodo record at: https://doi.org/10.5281/zenodo.6081432, which is updated based on the contents of Releases to this GitHub repository. The person updating the GitHub and creating Releases need not be the person who originally created the GitHub repository or linked it to Zenodo, as long as they have permission to push to the GitHUb repository. This ability to collaboratively update the Zenodo record is a key feature of these GitHub-based updates, and to our knowledge, is not possible using other methods of uploading data to Zenodo.
+This GitHub repository is linked to the test Zenodo record at: https://doi.org/10.5281/zenodo.6081432, which is updated based on the contents of Releases to this GitHub repository.
+
+The person updating the GitHub and creating Releases need not be the person who originally created the GitHub repository or linked it to Zenodo, as long as they have permission to push to the GitHub repository. This ability to collaboratively update the Zenodo record is a key feature of these GitHub-based updates, and to our knowledge, is not possible using other methods of uploading data to Zenodo.
 
 Metadata is stored in the .zenodo.json file, which is formatted based on documentation at https://developers.zenodo.org/, and was refined after testing various properties (see below).
 
-## Results of testing various properties in .zenodo.json
+
+## Specific instructions and test results for .zenodo.json properties
 
 To update metadata for the Zenodo record, update the corresponding properties in the .zenodo.json file, and then create a Release on GitHub. Based on previous tests, nothing will be updated on Zenodo until a GitHub Release is created, but the update happens almost instantaneously once that's been done (assuming the json contains valid metadata). 
 
-Note that if .zenodo.json contains *anything* not recognized by Zenodo as valid, then the Release will fail to be posted to Zenodo, and will only succeed once the errors have been corrected and put into a new Release. See Release "version 0.0.5" for the most comprehensive list of .zenodo.json properties that have been tested here and found to be valid.
+Note that if .zenodo.json contains *anything* not recognized by Zenodo as valid, then the Release will fail to be posted to Zenodo, and will only succeed once the errors have been corrected and put into a new Release. 
+
+See Release "version 0.0.7" for the most comprehensive list of .zenodo.json properties that have been tested here and found to be valid.
+
 
 ### Notes on specific properties
 
