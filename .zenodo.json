@@ -2,7 +2,6 @@
   "upload_type": "dataset",
   "title": "This is the 'title': Test Zenodo upload",
   "description": "This is the 'description'",
-  "publication_date": "2022-09-08",
   "creators": [
     {
       "name": "Woodcroft, Ben", "affiliation": "Queensland University of Technology"
