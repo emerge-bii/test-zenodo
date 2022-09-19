@@ -14,7 +14,7 @@ To update metadata for the Zenodo record, update the corresponding properties in
 
 Note that if .zenodo.json contains *anything* not recognized by Zenodo as valid, then the Release will fail to be posted to Zenodo, and will only succeed once the errors have been corrected and put into a new Release. 
 
-See Release "version 0.0.7" for the most comprehensive list of .zenodo.json properties that have been tested here and found to be valid.
+See Release "version 0.0.8" for the most comprehensive list of .zenodo.json properties that have been tested here and found to be valid (except for the optional custom "publication_date", which exists in version 0.0.7, and has since been removed to simplify publishing new releases).
 
 
 ### Notes on specific properties
