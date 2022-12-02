@@ -20,6 +20,7 @@
     }
   ],
   "access_right": "open",
+  "license": "gpl-3.0",
   "keywords": ["test", "EMERGE"],
   "notes": "This is the 'notes'",
   "version": "0.0.8",
