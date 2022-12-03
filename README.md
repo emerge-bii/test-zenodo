@@ -1,7 +1,7 @@
 # test-zenodo
-Testing Zenodo releases.
-
 This GitHub repository is linked to the test Zenodo record at: https://doi.org/10.5281/zenodo.6081432, which is updated based on the contents of Releases to this GitHub repository.
+
+When initially setting up a Zenodo record linked to a GitHub repository, the Zenodo record will automatically include a link to the GitHub repo, but not vice versa. Therefore, you will need to manually add the Zenodo DOI link (specifically, the one under "Cite all versions") to your GitHub repository (as was done here, both in the README and in the URL under "About") in order to easily navigate to the Zenodo record from GitHub.
 
 The person updating the GitHub and creating Releases need not be the person who originally created the GitHub repository or linked it to Zenodo, as long as they have permission to push to the GitHub repository. This ability to collaboratively update the Zenodo record is a key feature of these GitHub-based updates, and to our knowledge, is not possible using other methods of uploading data to Zenodo.
 
