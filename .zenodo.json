@@ -23,7 +23,6 @@
   "license": "gpl-3.0",
   "keywords": ["test", "EMERGE"],
   "notes": "This is the 'notes'",
-  "grants": [{"id": "10.13039/100000001::2022070"}],
-  "version": "0.0.9",
+  "version": "0.0.10",
   "communities": [{"identifier": "emerge-bii"}]
 }
