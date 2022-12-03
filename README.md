@@ -31,6 +31,11 @@ The following property is specific to the release under which it's specified (an
 "publication_date": "2022-08-26"
 ```
 
+The "license" property is parsed separately from any license file that you may have added to your GitHub repository, and generates a link to the license URL on the Zenodo page. Therefore, you'll need to manually make sure that the license identifier in the JSON matches the license file in your GitHub repository. In addition, license identifiers on Zenodo follow a controlled vocabulary. To find the identifier of the license you are using, first see if it exists in either the license text, in the license URL, or elsewhere on the license webpage. Then test it by replacing "gpl-3.0" in the URL "https://zenodo.org/api/licenses/gpl-3.0" with the identifier that you found for your license, and then go to that URL in your browser. If you get a 404 message with "PID does not exist," then the license ID is invalid. But if you instead get a bunch of license details, then you can safely add the following property to .zenodo.json (again replacing "gpl-3.0" with your license identifier):
+```
+"license": "gpl-3.0"
+```
+
 
 ### Known failed properties (do NOT add these to .zenodo.json; please update the list below if more are found)
 
