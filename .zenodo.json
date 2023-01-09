@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "This is the 'title': Test Zenodo upload",
-  "description": "This is the 'description'.\nHere is a new line, with a Unicode escape sequence for a greek letter beta: \u03b2 (raw unescaped character: β)",
+  "description": "This is the 'description'.\nHere is a new line, with a Unicode escape sequence for a greek letter beta: \u03b2 (raw unescaped character: β)<p>Since newline escape sequences don't work, this is a paragraph enclosed in HTML tags.<br>An html line break also appears, within the paragraph, just before this sentence.</p>",
   "creators": [
     {
       "name": "Woodcroft, Ben", 
@@ -23,6 +23,6 @@
   "license": "gpl-3.0",
   "keywords": ["test", "EMERGE"],
   "notes": "This is the 'notes'",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "communities": [{"identifier": "emerge-bii"}]
 }
